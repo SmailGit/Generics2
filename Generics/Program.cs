@@ -19,7 +19,7 @@ namespace Generics
             Console.WriteLine(box1);
             Console.WriteLine(box2);
             Console.WriteLine(box3);
-            int[] mass = new int[] { box1, box2, box3 };
+            int[] mass = new int[] { box1._value, box2._value, box3._value };
             MyArrayUtils<int> myArrayUtils = new MyArrayUtils<int>();
 
             myArrayUtils.GenerateArray(3);
